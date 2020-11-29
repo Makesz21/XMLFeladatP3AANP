@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gyogyszertar_adatok xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="XMLSchemaP3AANP.xsd">
+    
+    <raktarak>
+        <raktar gyogyszertar_id="43" raktar_id="32">
+            <cim>
+            	<iranyitoszam>3300</iranyitoszam>
+            	<varos>Eger</varos>
+            	<utca>Kistályai út</utca>
+            	<hazszam>40</hazszam>
+            </cim>
+            <nev>The Storage</nev>
+        </raktar>
+		<raktar gyogyszertar_id="44" raktar_id="21">
+            <cim>
+            	<iranyitoszam>3350</iranyitoszam>
+            	<varos>Kál</varos>
+            	<utca>Fő út</utca>
+            	<hazszam>10</hazszam>
+            </cim>
+           	<nev>Bosch Storage</nev>
+        </raktar>
+    </raktarak>
+    
+    <gyogyszertarak>
+   		<gyogyszertar raktar_id="20" gyogyszertar_id="42" telszam="+36302203762">
+            <dolgozok>
+	            <cim>
+	            	<iranyitoszam>3300</iranyitoszam>
+	            	<varos>Eger</varos>
+	            	<utca>Hadnagy utca</utca>
+	            	<hazszam>5</hazszam>
+	            </cim>
+	            <elerhetoseg>jakabk11@gmail.com</elerhetoseg>
+	           	<nev>Jakab Kálmán</nev>
+            </dolgozok>
+     	</gyogyszertar>
+     	<gyogyszertar raktar_id="35" gyogyszertar_id="2" telszam="+36302675762">
+            <dolgozok>
+	            <cim>
+	            	<iranyitoszam>1087</iranyitoszam>
+	            	<varos>Budapest</varos>
+	            	<utca>Stróbl Alajos út</utca>
+	            	<hazszam>12</hazszam>
+	            </cim>
+	            <elerhetoseg>szimre2@gmail.com</elerhetoseg>
+	           	<nev>Szabó Imre</nev>
+            </dolgozok>
+     	</gyogyszertar>
+    </gyogyszertarak>
+    
+	<gyogyszerek>
+		<gyogyszer gyogyszer_id="2113" telszam="+36204567892">
+			<receptre_kaphato>Nem</receptre_kaphato>
+			<hatoanyag>ceclor</hatoanyag>
+			<tipus>Fájdalomcsillapító</tipus>
+			<nev>Algoflex</nev>
+		</gyogyszer>
+		<gyogyszer gyogyszer_id="113" telszam="+36204765432">
+			<receptre_kaphato>Igen</receptre_kaphato>
+			<hatoanyag>magnézium</hatoanyag>
+			<tipus>Vitamin</tipus>
+			<nev>Magnerot</nev>
+		</gyogyszer>
+	</gyogyszerek>
+	
+	<vasarlok>
+		<vasarlo gyogyszer_id="221" telszam="+36313425678" gyogyszertar_id="30">
+			<nev>Kiss Gergő</nev>
+			<haziorvos>Dr.Lakatos László</haziorvos>
+			<gyogyszererzekenyseg>nincs</gyogyszererzekenyseg>
+			<eletkor>44</eletkor>
+		</vasarlo>
+		<vasarlo gyogyszer_id="245" telszam="+3631987678" gyogyszertar_id="10">
+			<nev>Szabó Mátyás</nev>
+			<haziorvos>Dr.Mann László</haziorvos>
+			<gyogyszererzekenyseg>ceclor</gyogyszererzekenyseg>
+			<eletkor>22</eletkor>
+		</vasarlo>
+	</vasarlok>
+    
+    <gyogyszertar-raktar>
+    	<szallitas gyogyszertar_id="44" raktar_id="35">
+    		<datum>2020.12.03.</datum>
+    		<fuvarozo_ceg>FastAndFurious Kft.</fuvarozo_ceg>
+    		<arucikkek>Gyógyszerek</arucikkek>
+    		<szallitasi_mod>Futárszolgálat</szallitasi_mod>
+    		<fizetesi_mod>Előre utalás</fizetesi_mod>
+    		<osszeg>456.300</osszeg>
+    	</szallitas>
+    	<szallitas gyogyszertar_id="42" raktar_id="10">
+    		<datum>2020.12.10.</datum>
+    		<fuvarozo_ceg>GLS</fuvarozo_ceg>
+    		<arucikkek>Fecskendők</arucikkek>
+    		<szallitasi_mod>Futárszolgálat</szallitasi_mod>
+    		<fizetesi_mod>Készpénz, Utánvét</fizetesi_mod>
+    		<osszeg>118.500</osszeg>
+    	</szallitas>
+    </gyogyszertar-raktar>
+    
+    <gyogyszertar-vasarlo>
+    	<vasarlas gyogyszertar_id="2" telszam="+3631987678">
+    		<osszeg>5300</osszeg>
+    		<fizetesi_mod>Bankkártya</fizetesi_mod>
+    		<szamla>
+    			<ceg_neve>nincs</ceg_neve>
+    			<maganszemely>Kolozsvári Anna</maganszemely>
+    		</szamla>
+    	</vasarlas>
+    	<vasarlas gyogyszertar_id="43" telszam="+36204765432">
+    		<osszeg>12340</osszeg>
+    		<fizetesi_mod>Készpénz</fizetesi_mod>
+    		<szamla>
+    			<ceg_neve>Bosch Automotive Steering Kft.</ceg_neve>
+    			<maganszemely>nincs</maganszemely>
+    		</szamla>
+    	</vasarlas>
+    </gyogyszertar-vasarlo>
+    
+    <vasarlo-gyogyszer>
+    	<betegseg telszam="+36204765432" gyogyszer_id="321">
+    		<panasz>hányás, hasmenés</panasz>
+    	</betegseg>
+    	<betegseg telszam="+36204341675" gyogyszer_id="2230">
+    		<panasz>fejfájás, szédülés</panasz>
+    	</betegseg>
+    </vasarlo-gyogyszer>
+    
+</gyogyszertar_adatok>
